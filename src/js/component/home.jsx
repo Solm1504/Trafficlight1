@@ -19,7 +19,7 @@ function Semáforo() {
           margin: "10px"
         }}
       ></div>
-      <button onClick={handleClick}>Cambiar</button>
+      <button onClick={handleClick} className="btn btn-dark">Cambiar</button>
     </div>
   );
 }
